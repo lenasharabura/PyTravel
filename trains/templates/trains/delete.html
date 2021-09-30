@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Удаленние поезда{% endblock %}
+
+{% block content %}
+<h1>Удаление поезда</h1>
+<p>{{ object }}</p>
+
+{% include 'form.html' with button="Удалить" %}
+
+{% endblock %}
+
