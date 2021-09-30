@@ -32,7 +32,7 @@ SECRET_KEY = SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['dashboard.heroku.com']
+ALLOWED_HOSTS = ['travelapp-findroute.herokuapp.com']
 
 # Application definition
 
