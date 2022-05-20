@@ -60,7 +60,6 @@ class CityUpdateView(SuccessMessageMixin, UpdateView):
     success_message = 'Город успешно отредактирован!'
 
 
-
 class CityDeleteView(SuccessMessageMixin, DeleteView):
     model = City
     # template_name = 'cities/delete.html'
